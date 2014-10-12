@@ -136,7 +136,7 @@ La base
 Qu'est ce qu'un commit ?
 ------------------------
 
-Un *commit* est un ensemble de modification sur les fichiers du dépôt.
+Un *commit* est un ensemble de modifications sur les fichiers du dépôt.
 
 Un bon commit doit être **atomique** et correspondre à une **modification précise**.
 
@@ -169,8 +169,8 @@ Différents statuts :
 
 2 listes disctinctes :
 
-- modification qui seront validées (*commitées*)
-- modification qui ne seront pas validées
+- modifications qui seront validées (*commitées*)
+- modifications qui ne seront pas validées
 
 ----
 
@@ -198,7 +198,8 @@ Ecrire le commit
     $ git commit
     $ git commit -m "Message de commit"
 
-Le premier ouvrira votre éditeur par défaut (variable ``$EDITOR``) pour écrire le message de commit
+Le premier ouvrira votre éditeur par défaut (variable ``$EDITOR``) pour écrire le message de commit.
+
 Le second vous permet de spécifier le message dans la ligne de commande.
 
 Modifier le dernier commit
@@ -291,7 +292,7 @@ Les branches
 Elle permettent :
 
 - de tester des implémentations hors de la branche principale
-- de découper le dépôt en sous-dépôts dédiés a des fonctionnalités précises
+- de découper le dépôt en sous-dépôts dédiés à des fonctionnalités précises
 
 Elles peuvent être *locales* ou *partagées*.
 
