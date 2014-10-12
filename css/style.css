@@ -1,0 +1,102 @@
+/*
+ * style.css
+ *
+ * Copyright (C) 2014 Mathieu Gaborit (matael) <mathieu@matael.org>
+ *
+ *
+ * Distributed under WTFPL terms
+ *
+ *            DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
+ *                    Version 2, December 2004
+ *
+ * Copyright (C) 2004 Sam Hocevar <sam@hocevar.net>
+ *
+ * Everyone is permitted to copy and distribute verbatim or modified
+ * copies of this license document, and changing it is allowed as long
+ * as the name is changed.
+ *
+ *            DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
+ *   TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
+ *
+ *  0. You just DO WHAT THE FUCK YOU WANT TO.
+ *
+ */
+
+@font-face {
+	font-family: 'Ubuntu';
+	font-style: normal;
+	font-weight: 400;
+	src: url('../fonts/Ubuntu-Regular.ttf');
+}
+
+body {
+	font-family: 'Ubuntu';
+	background: #fff;
+	font-size: 1.4em;
+	color: #3c3c3c;
+	line-height: 1.3em;
+}
+
+.contact {
+	display: block;
+	text-align: center;
+	font-size: 1.1em;
+	font-weight: bold;
+}
+
+.note, .definition, strong, .contact {
+	color: #e8580c;
+}
+
+em {
+	font-weight: bold;
+}
+
+#title h1 , #thanks h1 {
+	color: #e8580c;
+}
+
+h2 {
+	text-indent: -20px;
+	color:  #E59116
+}
+
+h1 {
+	text-align: center;
+}
+
+pre {
+	border-left: #5c5c5c solid 3px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	padding: 5px 10px 5px 10px;
+}
+
+
+#title {
+	text-align: center;
+	font-size: 2em;
+	line-height: 2.5em;
+}
+
+
+#branchs img , #conflict img {
+	float: right;
+	display: block;
+}
+
+#workflow img {
+	margin: auto;
+}
+
+
+#thanks h1 {
+	font-size: 90px;
+}
+
+#thanks img {
+	float: right;
+}
+
+
